@@ -1,3 +1,4 @@
+## [1.0.1] - 2020-12-18
 ## [1.0.0] - 2020-12-18
 ### Environment variable
 - Add possibility to use `ANSIBLE_VAULT_IDENTITY_LIST` environment variable
