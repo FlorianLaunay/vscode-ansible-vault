@@ -1,8 +1,8 @@
 # VSCode Ansible Vault extension
 
-[![Version Badge](https://img.shields.io/vscode-marketplace/v/florianlaunay.ansible-vault.svg?style=flat-square&label=marketplace)](https://marketplace.visualstudio.com/items?itemName=florianlaunay.ansible-vault)
-[![Installs Badge](https://img.shields.io/vscode-marketplace/i/florianlaunay.ansible-vault.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=florianlaunay.ansible-vault)
-[![Rating Badge](https://img.shields.io/vscode-marketplace/r/florianlaunay.ansible-vault.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=florianlaunay.ansible-vault)
+[![Version Badge](https://img.shields.io/vscode-marketplace/v/flaunay.ansible-vault.svg?style=flat-square&label=marketplace)](https://marketplace.visualstudio.com/items?itemName=flaunay.ansible-vault)
+[![Installs Badge](https://img.shields.io/vscode-marketplace/i/flaunay.ansible-vault.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=flaunay.ansible-vault)
+[![Rating Badge](https://img.shields.io/vscode-marketplace/r/flaunay.ansible-vault.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=flaunay.ansible-vault)
 [![License Badge](https://img.shields.io/badge/License-MPL%202.0-blue.svg?style=flat-square)](https://www.mozilla.org/en-US/MPL/2.0/)
 
 VSCode extensions to encrypt/decrypt `ansible-vault` file as well as selected text, using ansible vault-id instead of password file or password as compared with other existing extensions. Can toggle with <kbd>`ctl+alt+0`</kbd>, on macOS with <kbd>`cmd+alt+0`</kbd>, or via the contextual menu.
