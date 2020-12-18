@@ -1,7 +1,7 @@
 {
 	"name": "ansible-vault",
-	"version": "0.1.1",
-	"publisher": "spinosae",
+	"version": "1.0.0",
+	"publisher": "flaunay",
 	"engines": {
 		"vscode": "^1.39.0"
 	},
@@ -74,8 +74,8 @@
 		"@types/vscode": "^1.39.0",
 		"glob": "^7.1.4",
 		"mocha": "^6.1.4",
-		"typescript": "^3.3.1",
 		"tslint": "^5.12.1",
+		"typescript": "^3.3.1",
 		"vscode-test": "^1.2.0"
 	},
 	"scripts": {
@@ -87,6 +87,6 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/spinosae/vscode-ansible-vault.git"
+		"url": "https://github.com/FlorianLaunay/vscode-ansible-vault.git"
 	}
 }
