@@ -7,7 +7,7 @@
 
 VSCode extensions to encrypt/decrypt `ansible-vault` file as well as selected text, using ansible vault-id instead of password file or password as compared with other existing extensions. Can toggle with <kbd>`ctl+alt+0`</kbd>, on macOS with <kbd>`cmd+alt+0`</kbd>, or via the contextual menu.
 
-_Fork of [spinosae/vscode-ansible-vault], which in turn was inspired by [wolfmah/vscode-ansible-vault-inline](https://gitlab.com/wolfmah/vscode-ansible-vault-inline), which in turn was inspired by [dhoeric/vscode-ansible-vault](https://github.com/dhoeric/vscode-ansible-vault), which in turn was inspired by [sydro/atom-ansible-vault](https://github.com/sydro/atom-ansible-vault)_
+_Fork of [spinosae/vscode-ansible-vault](https://github.com/spinosae/vscode-ansible-vault), which in turn was inspired by [wolfmah/vscode-ansible-vault-inline](https://gitlab.com/wolfmah/vscode-ansible-vault-inline), which in turn was inspired by [dhoeric/vscode-ansible-vault](https://github.com/dhoeric/vscode-ansible-vault), which in turn was inspired by [sydro/atom-ansible-vault](https://github.com/sydro/atom-ansible-vault)_
 
 
 ## Usage
