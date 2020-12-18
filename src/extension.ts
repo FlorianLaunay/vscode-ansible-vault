@@ -9,7 +9,7 @@ async function ask_for_vault_id(ansible_cfg: string) {
 	let cfg : any = util.getValueByCfg(ansible_cfg);
 	let identity_list = cfg.defaults.vault_identity_list.split(',').map( (id : string) => id.split('@', 2)[0].trim());
 	await vscode.window.showQuickPick(identity_list)
-		.then( chosen => { if (chosen) { vault_id = chosen; } } );	
+		.then( chosen => { if (chosen) { vault_id = chosen; } } );
 	return vault_id;
 }
 
@@ -34,9 +34,13 @@ export function activate(context: vscode.ExtensionContext) {
 		let keypath = "";
 		let pass : any = "";
 
-		// Read `ansible.cfg` 
+		// Read `ansible.cfg` or envionment variable
 		let rootPath = util.getRootPath(editor.document.uri);
-		let keyInCfg = util.scanAnsibleCfg(rootPath);
+		if (!!process.env.ANSIBLE_VAULT_IDENTITY_LIST) {
+			var keyInCfg = process.env.ANSIBLE_VAULT_IDENTITY_LIST;
+		} else {
+			var keyInCfg = util.scanAnsibleCfg(rootPath);
+		}
 
 		// Extract `ansible-vault` password
 		if (!!keyInCfg) {
