@@ -2,6 +2,7 @@
 	"name": "ansible-vault",
 	"version": "1.0.1",
 	"publisher": "flaunay",
+	"icon": "images/icon.png",
 	"engines": {
 		"vscode": "^1.39.0"
 	},
