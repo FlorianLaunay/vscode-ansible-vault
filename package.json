@@ -1,14 +1,14 @@
 {
 	"name": "ansible-vault",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"publisher": "flaunay",
 	"icon": "images/icon.png",
 	"engines": {
-		"vscode": "^1.39.0"
+		"vscode": "^1.52.0"
 	},
 	"license": "SEE LICENSE IN LICENSE",
-	"displayName": "Ansible Vault",
-	"description": "Encrypt/decrypt files with ansible vault, supports vault-id",
+	"displayName": "Ansible Vault (🔴 DEPRECATED)",
+	"description": "DEPRECATED - Encrypt/decrypt files with ansible vault, supports vault-id",
 	"categories": [
 		"Other"
 	],
